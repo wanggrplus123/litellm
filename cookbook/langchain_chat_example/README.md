@@ -50,10 +50,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Configure environment variables:
+4. Configure environment variables and gitignore (optional):
 ```bash
 cp .env.example .env
 # Edit .env with your configuration
+
+# Optional: Set up .gitignore if you plan to initialize git in this directory
+cp gitignore.example .gitignore
 ```
 
 ## Configuration
